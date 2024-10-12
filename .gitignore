@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,39 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+# Thư mục build
+/build/
+/target/
+
+# Thư mục .idea (nếu sử dụng IntelliJ IDEA)
+.idea/
+
+# Thư mục eclipse (nếu sử dụng Eclipse)
+.settings/
+.project
+.classpath
+
+# File log
+*.log
+
+# Thư mục cache của Maven
+/.mvn/
+.mvn/
+
+# File cấu hình của IDE
+*.iml
+*.hprof
+
+# Thư mục và file tạm thời
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Thư mục test
+/test-classes/
+/src/test/java/
+>>>>>>> Stashed changes
